@@ -1,0 +1,60 @@
+/*-------------------------------------------------------*
+*
+* Plugin style
+*
+*--------------------------------------------------------*/
+#oe-sb-overlay {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    z-index: 10000;
+    background: rgba(0,0,0,0.8);
+    font-family: "Helvetica", Arial, sans-serif !important;
+    font-size: 14px !important;
+}
+#oe-sb-overlay .oe-sb-wrapper {
+     width: 650px;
+     margin: 100px auto;
+     background-color: #fff;
+     border: 3px solid rgba(0,0,0,0.3);
+     padding: 0 20px 20px 20px;
+     text-align:center;
+}
+#oe-sb-overlay .oe-sb-wrapper h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+   	margin: 30px auto 20px;
+}
+#oe-sb-overlay .oe-sb-browser {
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+#oe-sb-overlay .oe-sb-browser-icon {
+    display: block;
+    margin-bottom: 5px;
+}
+#oe-sb-overlay .oe-sb-browser p{
+    font-size: 13px;
+    margin-bottom: 0;
+}
+#oe-sb-overlay .oe-sb-browser-container {
+    margin-top: 20px;
+}
+#oe-sb-overlay .clear-both {
+	clear: both;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
